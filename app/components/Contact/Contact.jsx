@@ -25,7 +25,7 @@ export default function Contact() {
               <div className=" flex justify-center items-center">
                 <FaLocationDot
                   size={50}
-                  className=" text-purple-400 bg-white rounded-full  p-2 "
+                  className=" text-green-400 bg-white rounded-full  p-2 "
                 />
               </div>
               <div className=" flex  flex-col">
@@ -41,7 +41,7 @@ export default function Contact() {
               <div className=" flex justify-center items-center">
                 <MdEmail
                   size={50}
-                  className=" text-purple-400 bg-white rounded-full  p-2 "
+                  className=" text-green-400 bg-white rounded-full  p-2 "
                 />
               </div>
               <div className=" flex  flex-col">
@@ -55,7 +55,7 @@ export default function Contact() {
               <div className=" flex justify-center items-center">
                 <FaHeadphones
                   size={50}
-                  className=" text-purple-400 bg-white rounded-full  p-2 "
+                  className=" text-green-400 bg-white rounded-full  p-2 "
                 />
               </div>
               <div className=" flex  flex-col">
@@ -77,7 +77,7 @@ export default function Contact() {
                 <div className="flex p-3 gap-5 items-center">
                   <FaRoad
                     size={60}
-                    className=" text-purple-400 rounded-full border-8 p-2 border-purple-400 bg-white"
+                    className=" text-green-400 rounded-full border-8 p-2 border-green-400 bg-white"
                   />
                   <h1 className=" font-semibold text-xl ">By Train</h1>
                 </div>
@@ -93,7 +93,7 @@ export default function Contact() {
                 <div className="flex p-3 gap-5 items-center">
                   <IoMdTrain
                     size={60}
-                    className=" text-purple-400 rounded-full border-8 p-2 border-purple-400 bg-white"
+                    className=" text-green-400 rounded-full border-8 p-2 border-green-400 bg-white"
                   />
                   <h1 className=" font-semibold text-xl ">By Air</h1>
                 </div>
@@ -109,7 +109,7 @@ export default function Contact() {
                 <div className="flex p-3 gap-5 items-center">
                   <IoAirplane
                     size={60}
-                    className=" text-purple-400 rounded-full border-8 p-2 border-purple-400 bg-white"
+                    className=" text-green-400 rounded-full border-8 p-2 border-green-400 bg-white"
                   />
                   <h1 className=" font-semibold text-xl ">By Road</h1>
                 </div>

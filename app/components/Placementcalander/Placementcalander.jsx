@@ -7,7 +7,7 @@ export default function Placementcalander() {
   return (
     <>
      <SliderMain images={images} />
-      <h1 className=" font-semibold text-4xl border-b-2 p-8 text-center w-3/4 mx-auto border-purple-600 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] rounded-b-2xl">
+      <h1 className=" font-semibold text-4xl border-b-2 p-8 text-center w-3/4 mx-auto border-green-600 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] rounded-b-2xl">
         Placement Process
       </h1>
 
@@ -100,7 +100,7 @@ export default function Placementcalander() {
         processes digitally as well. The institute does not follow the practice
         of placement/participation fees.
       </p>
-      <h1 className=" font-semibold text-4xl border-b-2 p-8 text-center w-3/4 mx-auto border-purple-600">
+      <h1 className=" font-semibold text-4xl border-b-2 p-8 text-center w-3/4 mx-auto border-green-600">
         Placement Calendar
       </h1>
       <div className="w-11/12  mx-auto pt-5 pb-10 ml-15">
@@ -111,7 +111,7 @@ export default function Placementcalander() {
               <h1 className="text-xl pb-2 text-center">
                 Click Here to Download 👇
               </h1>
-              <button className="bg-purple-600 mx-auto flex justify-center items-center w-2/3 hover:bg-purple-500 text-center p-5 rounded-2xl text-white">
+              <button className="bg-green-600 mx-auto flex justify-center items-center w-2/3 hover:bg-green-500 text-center p-5 rounded-2xl text-white">
                 Download
               </button>
             </div>

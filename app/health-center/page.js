@@ -17,7 +17,7 @@ export default function page() {
           </h1>
           <div className="w-[650px] h-[540px]  relative my-8 ml-[500px] ">
             <Image src="/a-o.png" alt="image" fill />
-            <div className=" absolute w-[620px] h-[320px]  top-24  right-[520px] bg-purple-600 p-8">
+            <div className=" absolute w-[620px] h-[320px]  top-24  right-[520px] bg-green-600 p-8">
               <h1 className="text-3xl font-bold">Health is Wealth</h1>
               <p className=" py-2 text-gray-200 p-1">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis

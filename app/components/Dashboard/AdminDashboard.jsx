@@ -25,7 +25,7 @@ const Dashboard = ({ clientProps }) => {
   return (
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 p-4 gap-4">
-        <div className="bg-purple-500 dark:bg-gray-800 shadow-lg rounded-md flex items-center justify-between p-3 border-b-4 border-purple-600 dark:border-gray-600 text-white font-medium group">
+        <div className="bg-green-500 dark:bg-gray-800 shadow-lg rounded-md flex items-center justify-between p-3 border-b-4 border-green-600 dark:border-gray-600 text-white font-medium group">
           <div className="flex justify-center items-center w-14 h-14 bg-white rounded-full transition-all duration-300 transform group-hover:rotate-12">
             <svg
               width="30"
@@ -33,7 +33,7 @@ const Dashboard = ({ clientProps }) => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="stroke-current text-purple-800 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
+              className="stroke-current text-green-800 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
             >
               <path
                 stroke-linecap="round"
@@ -48,7 +48,7 @@ const Dashboard = ({ clientProps }) => {
             <p>Visitors</p>
           </div>
         </div>
-        <div className="bg-purple-500 dark:bg-gray-800 shadow-lg rounded-md flex items-center justify-between p-3 border-b-4 border-purple-600 dark:border-gray-600 text-white font-medium group">
+        <div className="bg-green-500 dark:bg-gray-800 shadow-lg rounded-md flex items-center justify-between p-3 border-b-4 border-green-600 dark:border-gray-600 text-white font-medium group">
           <div className="flex justify-center items-center w-14 h-14 bg-white rounded-full transition-all duration-300 transform group-hover:rotate-12">
             <svg
               width="30"
@@ -56,7 +56,7 @@ const Dashboard = ({ clientProps }) => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="stroke-current text-purple-800 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
+              className="stroke-current text-green-800 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
             >
               <path
                 stroke-linecap="round"
@@ -71,7 +71,7 @@ const Dashboard = ({ clientProps }) => {
             <p>Students</p>
           </div>
         </div>
-        <div className="bg-purple-500 dark:bg-gray-800 shadow-lg rounded-md flex items-center justify-between p-3 border-b-4 border-purple-600 dark:border-gray-600 text-white font-medium group">
+        <div className="bg-green-500 dark:bg-gray-800 shadow-lg rounded-md flex items-center justify-between p-3 border-b-4 border-green-600 dark:border-gray-600 text-white font-medium group">
           <div className="flex justify-center items-center w-14 h-14 bg-white rounded-full transition-all duration-300 transform group-hover:rotate-12">
             <svg
               width="30"
@@ -79,7 +79,7 @@ const Dashboard = ({ clientProps }) => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="stroke-current text-purple-800 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
+              className="stroke-current text-green-800 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
             >
               <path
                 stroke-linecap="round"
@@ -94,7 +94,7 @@ const Dashboard = ({ clientProps }) => {
             <p>Admissions</p>
           </div>
         </div>
-        <div className="bg-purple-500 dark:bg-gray-800 shadow-lg rounded-md flex items-center justify-between p-3 border-b-4 border-purple-600 dark:border-gray-600 text-white font-medium group">
+        <div className="bg-green-500 dark:bg-gray-800 shadow-lg rounded-md flex items-center justify-between p-3 border-b-4 border-green-600 dark:border-gray-600 text-white font-medium group">
           <div className="flex justify-center items-center w-14 h-14 bg-white rounded-full transition-all duration-300 transform group-hover:rotate-12">
             <svg
               width="30"
@@ -102,7 +102,7 @@ const Dashboard = ({ clientProps }) => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="stroke-current text-purple-800 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
+              className="stroke-current text-green-800 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
             >
               <path
                 stroke-linecap="round"
@@ -130,7 +130,7 @@ const Dashboard = ({ clientProps }) => {
               </div>
               <div className="relative w-full max-w-full flex-grow flex-1 text-right">
                 <button
-                  className="bg-purple-500 dark:bg-gray-100 text-white active:bg-purple-600 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                  className="bg-green-500 dark:bg-gray-100 text-white active:bg-green-600 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                   type="button"
                 >
                   See all
@@ -162,10 +162,10 @@ const Dashboard = ({ clientProps }) => {
                       <div className="flex items-center">
                         <span className="mr-2">10%</span>
                         <div className="relative w-full">
-                          <div className="overflow-hidden h-2 text-xs flex rounded bg-purple-200">
+                          <div className="overflow-hidden h-2 text-xs flex rounded bg-green-200">
                             <div
                               style={{ width: "70%" }}
-                              className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-600"
+                              className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-600"
                             ></div>
                           </div>
                         </div>
@@ -190,7 +190,7 @@ const Dashboard = ({ clientProps }) => {
                 <Link href="/admin/events">
                   {" "}
                   <button
-                    className="bg-purple-500 dark:bg-gray-100 text-white active:bg-purple-600 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    className="bg-green-500 dark:bg-gray-100 text-white active:bg-green-600 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button"
                   >
                     See all
@@ -245,7 +245,7 @@ const Dashboard = ({ clientProps }) => {
           <h3 className="text-lg font-semibold">
             Task summaries of recent sprints
           </h3>
-        <Link href='/admin/approval'>  <h2 className="text-md font-bold text-center bg-purple-400 p-2 w-[300px]">View Waiting For Approval</h2></Link>
+        <Link href='/admin/approval'>  <h2 className="text-md font-bold text-center bg-green-400 p-2 w-[300px]">View Waiting For Approval</h2></Link>
         </div>
         <div className="md:col-span-2 xl:col-span-1">
           <div className="rounded bg-gray-200 dark:bg-gray-800 p-3  min-h-[350px] overflow-y-auto">
@@ -322,7 +322,7 @@ const Dashboard = ({ clientProps }) => {
               <h3 className="text-md font-semibold">News Update </h3>
               <Link href="/admin/news">
                 <button
-                  className="bg-purple-500 dark:bg-gray-100 text-white active:bg-purple-600 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                  className="bg-green-500 dark:bg-gray-100 text-white active:bg-green-600 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                   type="button"
                 >
                   Add new News
@@ -354,7 +354,7 @@ const Dashboard = ({ clientProps }) => {
                   </div>
                   {/* View Button */}
                   <button
-                    className="bg-purple-500 text-white active:bg-purple-600 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mt-2"
+                    className="bg-green-500 text-white active:bg-green-600 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mt-2"
                     type="button"
                   >
                     View
@@ -405,7 +405,7 @@ const Dashboard = ({ clientProps }) => {
                   </div>
                   {/* View Button */}
                   <button
-                    className="bg-purple-500 text-white active:bg-purple-600 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mt-2"
+                    className="bg-green-500 text-white active:bg-green-600 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mt-2"
                     type="button"
                   >
                     View
@@ -522,7 +522,7 @@ const Dashboard = ({ clientProps }) => {
                   </button>
                 </li>
                 <li>
-                  <button className="px-3 py-1 text-white dark:text-gray-800 transition-colors duration-150 bg-purple-600 dark:bg-gray-100 border border-r-0 border-purple-600 dark:border-gray-100 rounded-md focus:outline-none focus:shadow-outline-purple">
+                  <button className="px-3 py-1 text-white dark:text-gray-800 transition-colors duration-150 bg-green-600 dark:bg-gray-100 border border-r-0 border-green-600 dark:border-gray-100 rounded-md focus:outline-none focus:shadow-outline-purple">
                     3
                   </button>
                 </li>
@@ -570,14 +570,14 @@ const Dashboard = ({ clientProps }) => {
     </div> */}
 
       <div className="mt-8 mx-4">
-        <div className="p-4 bg-purple-50 dark:bg-gray-800 dark:text-gray-50 border border-purple-500 dark:border-gray-500 rounded-lg shadow-md">
+        <div className="p-4 bg-green-50 dark:bg-gray-800 dark:text-gray-50 border border-green-500 dark:border-gray-500 rounded-lg shadow-md">
           <h4 className="text-lg font-semibold">
             Have taken ideas & reused components from the following resources:
           </h4>
           <ul>
             <li className="mt-3">
               <a
-                className="flex items-center text-purple-700 dark:text-gray-100"
+                className="flex items-center text-green-700 dark:text-gray-100"
                 href="https://tailwindcomponents.com/component/sidebar-navigation-1"
                 target="_blank"
               >
@@ -601,7 +601,7 @@ const Dashboard = ({ clientProps }) => {
             </li>
             <li className="mt-2">
               <a
-                className="flex items-center text-purple-700 dark:text-gray-100"
+                className="flex items-center text-green-700 dark:text-gray-100"
                 href="https://tailwindcomponents.com/component/contact-form-1"
                 target="_blank"
               >
@@ -625,7 +625,7 @@ const Dashboard = ({ clientProps }) => {
             </li>
             <li className="mt-2">
               <a
-                className="flex items-center text-purple-700 dark:text-gray-100"
+                className="flex items-center text-green-700 dark:text-gray-100"
                 href="https://tailwindcomponents.com/component/trello-panel-clone"
                 target="_blank"
               >
@@ -651,7 +651,7 @@ const Dashboard = ({ clientProps }) => {
             </li>
             <li className="mt-2">
               <a
-                className="flex items-center text-purple-700 dark:text-gray-100"
+                className="flex items-center text-green-700 dark:text-gray-100"
                 href="https://windmill-dashboard.vercel.app/"
                 target="_blank"
               >
@@ -675,7 +675,7 @@ const Dashboard = ({ clientProps }) => {
             </li>
             <li className="mt-2">
               <a
-                className="flex items-center text-purple-700 dark:text-gray-100"
+                className="flex items-center text-green-700 dark:text-gray-100"
                 href="https://demos.creative-tim.com/notus-js/pages/admin/dashboard.html"
                 target="_blank"
               >
@@ -701,7 +701,7 @@ const Dashboard = ({ clientProps }) => {
             </li>
             <li className="mt-2">
               <a
-                className="flex items-center text-purple-700 dark:text-gray-100"
+                className="flex items-center text-green-700 dark:text-gray-100"
                 href="https://mosaic.cruip.com"
                 target="_blank"
               >

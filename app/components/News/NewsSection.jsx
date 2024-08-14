@@ -141,7 +141,7 @@ const ListItem = ({ item }) => {
             <div className="text-gray-600 text-sm">{date}</div>
           </div>
           {type === "news" && (
-            <div className="bg-purple-200 rounded-md p-2">News</div>
+            <div className="bg-green-200 rounded-md p-2">News</div>
           )}
           {type === "event" && (
             <div className="bg-[#ecd5ff] rounded-md p-2">Event</div>

@@ -11,7 +11,7 @@ export default function RegularActivite({ title, content }) {
                 Department for Career Development
                 </h2>
                 </div>
-      <div className="relative h-[270px] bg-gradient-to-r from-purple-700 via-red-700 to-red-500 text-white overflow-hidden -z-10 ">
+      <div className="relative h-[270px] bg-gradient-to-r from-green-700 via-red-700 to-red-500 text-white overflow-hidden -z-10 ">
         {/* SVG Waves */}
         <svg
           id="wave"

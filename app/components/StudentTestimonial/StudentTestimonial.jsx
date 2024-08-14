@@ -5,7 +5,7 @@ import SliderMain from '../SliderMain/SliderMain'
 export default function StudentTestimonial({img,title,content}) {
   return (
     <>
-     <div className="relative bg-gradient-to-r from-purple-700 via-purple-500 to-purple-100 text-white overflow-hidden  -z-10">
+     <div className="relative bg-gradient-to-r from-green-700 via-green-500 to-green-100 text-white overflow-hidden  -z-10">
           {/* SVG Waves */}
           <svg
           
@@ -70,7 +70,7 @@ export default function StudentTestimonial({img,title,content}) {
       </div>
       <div className=" flex justify-around m-10 p-10 w-11/12 mx-auto">
         <div className=" w-full ">
-          <h1 className="  text-purple-600 text-4xl">About</h1>
+          <h1 className="  text-green-600 text-4xl">About</h1>
           <h1 className=" text-2xl">
             We serve as a bridge between the university and the alumni
           </h1>

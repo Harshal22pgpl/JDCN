@@ -286,7 +286,7 @@ export default function NewsForm({
           ) : (
             <button
               onClick={handleSubmit}
-              className="w-20 my-5 mx-auto p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 bg-white hover:bg-purple-500 text-purple-500"
+              className="w-20 my-5 mx-auto p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 bg-white hover:bg-green-500 text-green-500"
             >
               Submit
             </button>

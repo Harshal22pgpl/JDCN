@@ -3,7 +3,7 @@ import React from "react";
 export default function AbouttheInstitute() {
   return (
     <>
-      <div className="  w-11/12 mx-auto mt-10 justify-around bg-gradient-to-r from-indigo-900 to-purple-900">
+      <div className="  w-11/12 mx-auto mt-10 justify-around bg-gradient-to-r from-indigo-900 to-green-900">
         <div className="   ">
           <h1 className="text-4xl lg:pt-10 lg:pb-5 lg:px-10 p-4 ">
             About the Institute

@@ -13,7 +13,7 @@ export default function CampusMap({
     <>
     
       <div className="flex justify-around w-11/12 mx-auto ">
-        <div className="w-1/2   justify-center  bg-purple-200 flex flex-col">
+        <div className="w-1/2   justify-center  bg-green-200 flex flex-col">
           <h1 className=" text-3xl px-7  py-2  capitalize text-black font-semibold">
             {heading1}
           </h1>
@@ -29,7 +29,7 @@ export default function CampusMap({
         <div className="w-1/2     ">
           <Image src={img2} alt="img" width={700} height={200} />
         </div>
-        <div className="w-1/2  justify-center bg-sky-300 flex flex-col">
+        <div className="w-1/2  justify-center bg-green-300 flex flex-col">
           <h1 className=" text-3xl px-7  py-2  capitalize text-black font-semibold">
             {heading2}
           </h1>

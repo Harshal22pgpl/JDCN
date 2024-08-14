@@ -16,7 +16,7 @@ const Pagination = ({ totalItems, itemsPerPage, currentPage, onPageChange }) => 
         <li key={i}>
           <button
             className={`px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple ${
-              i === currentPage ? 'bg-purple-600 text-white dark:text-gray-800' : ''
+              i === currentPage ? 'bg-green-600 text-white dark:text-gray-800' : ''
             }`}
             onClick={() => handleClick(i)}
           >

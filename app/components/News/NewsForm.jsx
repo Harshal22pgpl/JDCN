@@ -212,7 +212,7 @@ const NewsForm = ({ selectedNewsId,setSelectedNewsId, onFormSubmit, newsList, ..
           ) : (
             <button
               onClick={handleSubmit}
-              className="w-20 my-5 mx-auto font-bold p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 bg-purple-400 text-white"
+              className="w-20 my-5 mx-auto font-bold p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 bg-green-400 text-white"
             >
               Submit
             </button>

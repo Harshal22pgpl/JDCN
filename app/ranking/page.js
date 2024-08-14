@@ -23,7 +23,7 @@ export default function page() {
             <div className="w-2/3 p-6 flex flex-col">
               <h2 className="text-2xl font-bold mb-4 text-gray-700">NIRF Ranking -2024</h2>
               <div className="grid grid-cols-2 gap-4 mt-auto">
-                <div className="p-4 bg-purple-100 rounded flex gap-2 items-center">
+                <div className="p-4 bg-green-100 rounded flex gap-2 items-center">
 <h1 className=" font-bold text-3xl">16</h1>
 <h2 className=" text-base">Engineering</h2>
                 </div>
@@ -35,7 +35,7 @@ export default function page() {
 <h1 className=" font-bold text-3xl">19</h1>
 <h2 className=" text-base">Pharmacy</h2>
                 </div>
-                <div className="p-4 bg-sky-100 rounded flex gap-2 items-center">
+                <div className="p-4 bg-green-100 rounded flex gap-2 items-center">
 <h1 className=" font-bold text-3xl">24</h1>
 <h2 className=" text-base">Management</h2>
                 </div>

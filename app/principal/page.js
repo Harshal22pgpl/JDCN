@@ -14,8 +14,8 @@ export default function page() {
         <h1 className=" uppercase font-bold text-5xl">Principal</h1>
       </div>
       <div className="w-full  border-2 p-20 ">
-        <div className=" flex  rounded-xl bg-sky-100">
-          <div className="w-1/3 flex flex-col gap-2 bg-purple-300">
+        <div className=" flex  rounded-xl bg-green-100">
+          <div className="w-1/3 flex flex-col gap-2 bg-green-300">
             <div className="w-full h-72 border-2 relative overflow-hidden flex justify-center">
               <Image
                 src="/principaln.jpg"

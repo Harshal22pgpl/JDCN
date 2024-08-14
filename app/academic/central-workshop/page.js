@@ -17,7 +17,7 @@ export default function page() {
             </h1>
             <div className="w-[430px] h-[440px]  relative my-8">
               <Image src="/a-o.png" alt="image" fill />
-              <div className=" absolute w-[500px] h-[400px]  top-5 left-[230px] bg-purple-100 p-8">
+              <div className=" absolute w-[500px] h-[400px]  top-5 left-[230px] bg-green-100 p-8">
                 <h1 className="text-2xl font-bold">
                  Welcome to Central Workshop
                 </h1>

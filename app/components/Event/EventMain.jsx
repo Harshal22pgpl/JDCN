@@ -106,7 +106,7 @@ const EventMain = () => {
       title: "STEM Education Program",
       description:
         "Our program emphasizes Science, Technology, Engineering, and Mathematics (STEM) education, fostering critical thinking and problem-solving skills.",
-      bgColor: "bg-purple-400",
+      bgColor: "bg-green-400",
       textColor: "text-white",
     },
     {
@@ -120,7 +120,7 @@ const EventMain = () => {
       title: "STEM Education Program",
       description:
         "Our program emphasizes Science, Technology, Engineering, and Mathematics (STEM) education, fostering critical thinking and problem-solving skills.",
-      bgColor: "bg-purple-400",
+      bgColor: "bg-green-400",
       textColor: "text-white",
     },
     {
@@ -134,7 +134,7 @@ const EventMain = () => {
       title: "STEM Education Program",
       description:
         "Our program emphasizes Science, Technology, Engineering, and Mathematics (STEM) education, fostering critical thinking and problem-solving skills.",
-      bgColor: "bg-purple-400",
+      bgColor: "bg-green-400",
       textColor: "text-white",
     },
     {

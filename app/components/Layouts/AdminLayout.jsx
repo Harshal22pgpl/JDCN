@@ -20,14 +20,14 @@ const AdminLayout = ({ children }) => {
       <div>
         <div className="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased  bg-white dark:bg-gray-700 text-black dark:text-white">
           <div className="fixed w-full top-0  flex items-center justify-between h-14 text-white z-10">
-            <div className="flex items-center  justify-start pl-3 w-14 md:w-64 h-14 bg-purple-800 dark:bg-gray-800 border-none">
+            <div className="flex items-center  justify-start pl-3 w-14 md:w-64 h-14 bg-green-800 dark:bg-gray-800 border-none">
               <img
                 className="w-7 h-7 md:w-10 md:h-10 mr-2 rounded-md overflow-hidden"
                 src="https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg"
               />
               <span className="hidden md:block mt-2">Zoro</span>
             </div>
-            <div className="flex justify-between items-center h-14 bg-purple-800 dark:bg-gray-800 header-right mt-[1px]">
+            <div className="flex justify-between items-center h-14 bg-green-800 dark:bg-gray-800 header-right mt-[1px]">
               {/* <div className="bg-white rounded flex items-center w-full max-w-xl mr-4 p-2 shadow-sm border border-gray-200">
                 <button className="outline-none focus:outline-none">
                   <svg
@@ -58,7 +58,7 @@ const AdminLayout = ({ children }) => {
                 <li>
                   <a
                     onClick={handleLogout}
-                    className="flex items-center mr-4 hover:text-purple-100"
+                    className="flex items-center mr-4 hover:text-green-100"
                   >
                     <span className="inline-flex mr-1">
                       <svg
@@ -82,7 +82,7 @@ const AdminLayout = ({ children }) => {
               </ul>
             </div>
           </div>
-          <div className="fixed flex flex-col top-[55px] left-0 w-14 hover:w-64 md:w-64 bg-purple-900 dark:bg-gray-900 h-full text-white transition-all duration-300 border-none z-10 sidebar">
+          <div className="fixed flex flex-col top-[55px] left-0 w-14 hover:w-64 md:w-64 bg-green-900 dark:bg-gray-900 h-full text-white transition-all duration-300 border-none z-10 sidebar">
             <div className="overflow-y-auto overflow-x-hidden flex flex-col justify-between flex-grow">
               <ul className="flex flex-col py-4 space-y-1">
                 <Actions route={path} />
@@ -94,7 +94,7 @@ const AdminLayout = ({ children }) => {
                   </div>
                 </li>
                 <li>
-                  <a className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-purple-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-purple-500 dark:hover:border-gray-800 pr-6">
+                  <a className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-green-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-green-500 dark:hover:border-gray-800 pr-6">
                     <span className="inline-flex justify-center items-center ml-4">
                       <svg
                         className="w-5 h-5"
@@ -117,7 +117,7 @@ const AdminLayout = ({ children }) => {
                   </a>
                 </li>
                 <li>
-                  <a className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-purple-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-purple-500 dark:hover:border-gray-800 pr-6">
+                  <a className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-green-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-green-500 dark:hover:border-gray-800 pr-6">
                     <span className="inline-flex justify-center items-center ml-4">
                       <svg
                         className="w-5 h-5"
@@ -284,7 +284,7 @@ const Actions = ({ route }) => {
       {paths.map(({ name, path, icon }, index) => (
         <Link href={path} key={index}> {/* Add key prop here */}
           <div
-            className={`${route === path && 'bg-green-800'} relative flex flex-row items-center h-11 focus:outline-none hover:bg-green-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-purple-500 dark:hover:border-gray-800 pr-6`}
+            className={`${route === path && 'bg-green-800'} relative flex flex-row items-center h-11 focus:outline-none hover:bg-green-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-green-500 dark:hover:border-gray-800 pr-6`}
           >
             <span className="inline-flex justify-center items-center ml-4">
               {icon}

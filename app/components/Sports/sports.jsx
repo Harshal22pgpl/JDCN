@@ -5,7 +5,7 @@ import React from 'react'
 export default function Sports() {
   return (
     <>
-     <h1 className='pt-1 px-20 text-md'> <Link href="/" className='text-purple-500' >Home</Link>/Sports</h1>
+     <h1 className='pt-1 px-20 text-md'> <Link href="/" className='text-green-500' >Home</Link>/Sports</h1>
    <div className=' p-20 pt-10 '>
    
 

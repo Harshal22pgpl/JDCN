@@ -13,7 +13,7 @@ export default function page() {
     <div>
       <SliderMain images={images} />
       <div className="w-10/12 p-20 mx-auto  flex flex-col gap-4 ">
-        <h1 className=" text-center text-3xl font-bold text-purple-600">
+        <h1 className=" text-center text-3xl font-bold text-green-600">
           CENTRAL RESEARCH FACILITY
         </h1>
         <h2 className=" text-center">
@@ -52,7 +52,7 @@ export default function page() {
                 targetValue={12}
                 speed={0.001}
                 text="DEPARTMENTS UNDER"
-                textColor="text-purple-600"
+                textColor="text-green-600"
                 title="First Counter"
                 color="bg-[#bd5638]"
                 textsize="text-base"
@@ -104,7 +104,7 @@ export default function page() {
             <div className=" flex justify-center items-center">
               <FaLocationDot
                 size={50}
-                className=" text-purple-400 bg-white rounded-full  p-2 "
+                className=" text-green-400 bg-white rounded-full  p-2 "
               />
             </div>
             <div className=" flex  flex-col">
@@ -120,7 +120,7 @@ export default function page() {
             <div className=" flex justify-center items-center">
               <MdEmail
                 size={50}
-                className=" text-purple-400 bg-white rounded-full  p-2 "
+                className=" text-green-400 bg-white rounded-full  p-2 "
               />
             </div>
             <div className=" flex  flex-col">
@@ -134,7 +134,7 @@ export default function page() {
             <div className=" flex justify-center items-center">
               <FaHeadphones
                 size={50}
-                className=" text-purple-400 bg-white rounded-full  p-2 "
+                className=" text-green-400 bg-white rounded-full  p-2 "
               />
             </div>
             <div className=" flex  flex-col">

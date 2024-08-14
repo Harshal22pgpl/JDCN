@@ -18,7 +18,7 @@ export default function page() {
             </h1>
             <div className="w-[530px] h-[440px]  relative my-8">
               <Image src="/a-o.png" alt="image" fill />
-              <div className=" absolute w-[500px] h-[400px]  top-5 left-[200px] bg-purple-100 p-8">
+              <div className=" absolute w-[500px] h-[400px]  top-5 left-[200px] bg-green-100 p-8">
                 <h1 className="text-2xl font-bold">
                   Nature is pleased with simplicity
                 </h1>
@@ -49,7 +49,7 @@ export default function page() {
             ipsam cumque beatae dolorem! Laborum reiciendis enim asperiores sint
             laudantium. Sint, explicabo.
           </div>
-          <h1 className="my-2 p-2 text-lg text-purple-500 ">
+          <h1 className="my-2 p-2 text-lg text-green-500 ">
             Professor in Charge
           </h1>
           <div className="px-5 py-2">

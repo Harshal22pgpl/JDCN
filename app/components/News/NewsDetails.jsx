@@ -178,17 +178,17 @@ const EventDetail = ({ newsData, schoolUuid = "" }) => {
                           {item.type}
                         </h1>
                         {item.type === "event" && (
-                          <h1 className="px-4 text-purple-900">
+                          <h1 className="px-4 text-green-900">
                             {moment(item.startDate).format("MMMM DD, YYYY")}
                           </h1>
                         )}
                         {item.type === "notice" && (
-                          <h1 className="px-4 text-purple-900">
+                          <h1 className="px-4 text-green-900">
                             {moment(item.publishedDate).format("MMMM DD, YYYY")}
                           </h1>
                         )}
                         {item.type === "news" && (
-                          <h1 className="px-4 text-purple-900">
+                          <h1 className="px-4 text-green-900">
                             {moment(item.publishedDate).format("MMMM DD, YYYY")}
                           </h1>
                         )}
@@ -215,7 +215,7 @@ const EventDetail = ({ newsData, schoolUuid = "" }) => {
       <div className="m-10 font-bold">
         <Link
           href="/newsCard"
-          className="border-2 bg-purple-500 py-4 px-20 rounded-lg"
+          className="border-2 bg-green-500 py-4 px-20 rounded-lg"
         >
           All Archives
         </Link>

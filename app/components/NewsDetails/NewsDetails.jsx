@@ -45,7 +45,7 @@ export default function NewsDetails({ image, title, content }) {
   return (
     <>
       {/* Header background with waves */}
-      <div className="relative bg-gradient-to-r from-purple-700 via-red-700 to-red-500 text-white overflow-hidden -z-10">
+      <div className="relative bg-gradient-to-r from-green-700 via-red-700 to-red-500 text-white overflow-hidden -z-10">
         {/* SVG Waves */}
         <svg
           id="wave"
@@ -109,7 +109,7 @@ export default function NewsDetails({ image, title, content }) {
             onSubmit={handleSubmit}
             className="space-y-4 bg-white p-4  w-full md:w-full shadow-md flex flex-col border-indigo-200  "
           >
-            <h1 className=" text-xl text-purple-700 ">Admisson Form</h1>
+            <h1 className=" text-xl text-green-700 ">Admisson Form</h1>
             <input
               type="text"
               name="applicantName"
@@ -177,7 +177,7 @@ export default function NewsDetails({ image, title, content }) {
         </div>
       </div>
       <div className="border w-full h-[400px]    ">
-        <h1 className="text-5xl p-2 text-center border-b border-purple-700 text-purple-700 ">
+        <h1 className="text-5xl p-2 text-center border-b border-green-700 text-green-700 ">
           {title}
         </h1>
         <p className="text-l p-2 text-center">{content}</p>

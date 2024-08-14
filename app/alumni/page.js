@@ -99,20 +99,20 @@ const MyComponent = () => {
           {/* Left 30% width */}
           <ul className="bg-gray-200 p-4 rounded-lg">
             {/* Elementor widget list */}
-            <li className="mb-5 hover:bg-purple-400 p-4 rounded-md">AIC</li>
-            <li className="mb-5 hover:bg-purple-400 p-4 rounded-md">
+            <li className="mb-5 hover:bg-green-400 p-4 rounded-md">AIC</li>
+            <li className="mb-5 hover:bg-green-400 p-4 rounded-md">
               Message From Head
             </li>
-            <li className="mb-5 hover:bg-purple-400 p-4 rounded-md">
+            <li className="mb-5 hover:bg-green-400 p-4 rounded-md">
               Alumni Affairs
             </li>
-            <li className="mb-5 hover:bg-purple-400 p-4 rounded-md">Services</li>
-            <li className="mb-5 hover:bg-purple-400 p-4 rounded-md">News</li>
-            <li className="mb-5 hover:bg-purple-400 p-4 rounded-md">
+            <li className="mb-5 hover:bg-green-400 p-4 rounded-md">Services</li>
+            <li className="mb-5 hover:bg-green-400 p-4 rounded-md">News</li>
+            <li className="mb-5 hover:bg-green-400 p-4 rounded-md">
               Success Stories
             </li>
-            <li className="mb-5 hover:bg-purple-400 p-4 rounded-md">Reunions</li>
-            <li className=" hover:bg-purple-400 p-4 rounded-md">Contact Us</li>
+            <li className="mb-5 hover:bg-green-400 p-4 rounded-md">Reunions</li>
+            <li className=" hover:bg-green-400 p-4 rounded-md">Contact Us</li>
           </ul>
         </div>
         <div className="w-[70%] p-4">
@@ -154,14 +154,14 @@ const MyComponent = () => {
       </div>
 
       <section className=" w-11/12 mx-auto">
-        <div className=" w-8/9 rounded-t-md  sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple   bg-purple-400">
+        <div className=" w-8/9 rounded-t-md  sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple   bg-green-400">
           <div className="  ">
             <Counter
               initialValue={0}
               targetValue={2000}
               speed={0.001}
               text="Highest Package"
-              textColor="text-purple-600"
+              textColor="text-green-600"
               title="First Counter"
               color=""
             />
@@ -201,14 +201,14 @@ const MyComponent = () => {
             />
           </div>
         </div>
-        <div className=" rounded-b-md   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple  mb-12 bg-purple-400">
+        <div className=" rounded-b-md   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple  mb-12 bg-green-400">
           <div className=" ">
             <Counter
               initialValue={0}
               targetValue={2000}
               speed={0.001}
               text="NIRF All India Rank"
-              textColor="text-purple-600"
+              textColor="text-green-600"
               title="First Counter"
               color=""
             />

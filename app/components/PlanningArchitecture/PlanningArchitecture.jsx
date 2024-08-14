@@ -49,7 +49,7 @@ export default function PlanningArchitecture() {
             backgroundSize: "cover",
           }}
         >
-          <h1 className="text-purple-600 text-5xl p-10">About the Department</h1>
+          <h1 className="text-green-600 text-5xl p-10">About the Department</h1>
           <p className="px-10">
             The Department of Planning and Architecture (PA) was established in
             2013 with the objective of amalgamating the aesthetics and

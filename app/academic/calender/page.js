@@ -47,7 +47,7 @@ export default function Page() {  // Capitalized component name
               <button
                 className={`px-4 py-2 text-sm rounded-md ${
                   selectedYear === "all"
-                    ? "bg-purple-500 text-white"
+                    ? "bg-green-500 text-white"
                     : "bg-gray-300 text-gray-700"
                 }`}
                 onClick={() => handleYearChange("all")}
@@ -62,7 +62,7 @@ export default function Page() {  // Capitalized component name
                     key={year}
                     className={`px-4 py-2 text-sm rounded-md ${
                       selectedYear === year
-                        ? "bg-purple-500 text-white"
+                        ? "bg-green-500 text-white"
                         : "bg-gray-300 text-gray-700"
                     }`}
                     onClick={() => handleYearChange(year)}

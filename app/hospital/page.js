@@ -21,7 +21,7 @@ export default function page() {
         </section>
 
         {/* Services Section */}
-        <section className="py-20 bg-purple-800">
+        <section className="py-20 bg-green-800">
           <div className="container mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8 text-white">Our Services</h2>
             <div className="flex flex-wrap justify-center space-x-6 space-y-6">

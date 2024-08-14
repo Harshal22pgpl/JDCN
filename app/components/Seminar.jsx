@@ -107,7 +107,7 @@ const Seminar = ({ carouselData, additionalCarouselData }) => {
                   key={index}
                   className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96"
                 >
-                  <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-purple-gray-500 shadow-purple-gray-500/40">
+                  <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-green-gray-500 shadow-green-gray-500/40">
                     <img
                       src={item.imageUrl}
                       alt={item.title}
@@ -115,7 +115,7 @@ const Seminar = ({ carouselData, additionalCarouselData }) => {
                     />
                   </div>
                   <div className="p-6 h-[200px] ">
-                    <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-purple-gray-900">
+                    <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-green-gray-900">
                       {item.title}
                     </h5>
                     <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
@@ -143,7 +143,7 @@ const Seminar = ({ carouselData, additionalCarouselData }) => {
                   key={index}
                   className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96"
                 >
-                  <div className="relative h-56 mx-4 lg:-mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-purple-gray-500 shadow-purple-gray-500/40">
+                  <div className="relative h-56 mx-4 lg:-mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-green-gray-500 shadow-green-gray-500/40">
                     <img
                       src={item.imageUrl}
                       alt={item.title}
@@ -151,7 +151,7 @@ const Seminar = ({ carouselData, additionalCarouselData }) => {
                     />
                   </div>
                   <div className="p-6 h-[200px] ">
-                    <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-purple-gray-900">
+                    <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-green-gray-900">
                       {item.title}
                     </h5>
                     <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
@@ -183,7 +183,7 @@ const ListItem = ({ item }) => {
     <li className="border-gray-400 flex flex-col">
       <Link href={`/events/${uuid}`}>
         <div className="w-full flex gap-2 px-2 ">
-          <div className="p-4 bg-purple-400 text-center">
+          <div className="p-4 bg-green-400 text-center">
             <p>9 April</p>
           </div>
           <div className="w-full justify-center p-2 items-start flex flex-col">
@@ -191,7 +191,7 @@ const ListItem = ({ item }) => {
               {title}
             </h1>
             <div className="flex justify-start py-4 items-center text-sm font-semibold">
-              <h1 className="px-2 p-1 font-semibold rounded-lg capitalize bg-purple-200">
+              <h1 className="px-2 p-1 font-semibold rounded-lg capitalize bg-green-200">
                 {type}
               </h1>
             </div>

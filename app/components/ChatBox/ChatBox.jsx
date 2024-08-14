@@ -83,7 +83,7 @@
 //         <div className="w-full px-5 flex flex-col justify-between">
 //           <div className="flex flex-col mt-5">
 //             <div className="flex justify-end mb-4">
-//               <div className="mr-2 py-3 px-4 bg-purple-400 rounded-bl-3xl rounded-tl-3xl rounded-tr-xl text-white">
+//               <div className="mr-2 py-3 px-4 bg-green-400 rounded-bl-3xl rounded-tl-3xl rounded-tr-xl text-white">
 //                 Welcome to group everyone!
 //               </div>
 //               <img

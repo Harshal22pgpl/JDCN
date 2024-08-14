@@ -15,7 +15,7 @@ export default function page() {
         </h1>
         <div className="w-[600px] h-[440px]  relative my-8">
           <Image src="/a-o.png" alt="image" fill />
-          <div className=" absolute w-[580px] h-[400px]  top-5 left-[580px] bg-purple-100 p-2">
+          <div className=" absolute w-[580px] h-[400px]  top-5 left-[580px] bg-green-100 p-2">
             <h1 className="text-3xl font-bold">
               Programs and Course Structure at  LNCT Indore
             </h1>
@@ -43,7 +43,7 @@ export default function page() {
         </h1>
         <div className="w-[600px] h-[540px]  relative my-8 ml-[540px] ">
           <Image src="/a-o.png" alt="image" fill />
-          <div className=" absolute w-[690px] h-[340px]  top-24  right-[480px] bg-purple-600 p-8">
+          <div className=" absolute w-[690px] h-[340px]  top-24  right-[480px] bg-green-600 p-8">
             <h1 className="text-3xl font-bold">Admission at LNCT Indore</h1>
             <p className=" py-2 text-gray-200 p-1">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis

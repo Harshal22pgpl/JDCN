@@ -5,7 +5,7 @@ export default function Placementcell({ img, title, content }) {
   return (
     <>
       <div className="w-full">
-        <div className="relative bg-gradient-to-r from-purple-700 via-red-700 to-red-500 text-white overflow-hidden ">
+        <div className="relative bg-gradient-to-r from-green-700 via-red-700 to-red-500 text-white overflow-hidden ">
           {/* SVG Waves */}
           <svg
             id="wave"
@@ -65,7 +65,7 @@ export default function Placementcell({ img, title, content }) {
         </div>
       </div>
       <div className=" p-10 ">
-        <h1 className="text-4xl text-center text-purple-700 border-b-2 border-purple-500">
+        <h1 className="text-4xl text-center text-green-700 border-b-2 border-green-500">
           Overview...
         </h1>
         <div className="w-full mx-auto pt-5 ml-20">
@@ -78,7 +78,7 @@ export default function Placementcell({ img, title, content }) {
                 height={600}
               />
             </div>
-            <div className="bg-purple-500 w-[750px] text-white  p-10 translate-x-[-10rem] translate-y-12 opacity-80 ">
+            <div className="bg-green-500 w-[750px] text-white  p-10 translate-x-[-10rem] translate-y-12 opacity-80 ">
               <h1 className="text-2xl pb-2">
                 Bridging the Gap Between Institute and Industry
               </h1>
@@ -103,11 +103,11 @@ export default function Placementcell({ img, title, content }) {
       </div>
       <div className="p-10">
         <div>
-          <h1 className="text-4xl text-purple-700 pb-10 font-semibold ">
+          <h1 className="text-4xl text-green-700 pb-10 font-semibold ">
             Internship At  LNCT
           </h1>
         </div>
-        <div className=" text-purple-600    relative  mx-auto border-2">
+        <div className=" text-green-600    relative  mx-auto border-2">
           <Image src="/clg.jpg" alt="" fill />
           <div className="p-4">
             <h1 className="  text-5xl relative">2000+</h1>
@@ -127,7 +127,7 @@ export default function Placementcell({ img, title, content }) {
       </div>
 
       <div className=" p-10 ">
-        <h1 className="text-4xl text-center text-purple-700 border-b-2 border-purple-500 font-semibold ">
+        <h1 className="text-4xl text-center text-green-700 border-b-2 border-green-500 font-semibold ">
           Overview...
         </h1>
         <div className="w-full mx-auto pt-5 ml-15">

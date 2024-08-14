@@ -21,7 +21,7 @@ const Dropdown = ({ name, items }) => {
         onClick={toggleDropdown}
         id="mega-menu-full-dropdown-button"
         data-collapse-toggle="mega-menu-full-dropdown"
-        className="flex items-center text-xs justify-between w-full py-2 px-3 text-gray-900 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-600 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-purple-500 md:dark:hover:bg-transparent dark:border-gray-700"
+        className="flex items-center text-xs justify-between w-full py-2 px-3 text-gray-900 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-600 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-green-500 md:dark:hover:bg-transparent dark:border-gray-700"
       >
         {name}
         {/* ... (Icon for dropdown) */}

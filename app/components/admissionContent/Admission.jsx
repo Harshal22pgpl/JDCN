@@ -175,7 +175,7 @@ const AdmissionForm = () => {
 
               <div className="flex flex-col justify-center items-center mt-5 md:mt-0 max-w-3xl">
                 <h1 className="mb-4 text-center text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r to-purple-600 from-purple-400">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r to-green-600 from-green-400">
                     Just a Few More Steps
                   </span>
 

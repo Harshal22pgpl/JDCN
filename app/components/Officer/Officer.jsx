@@ -5,16 +5,16 @@ export default function Officer() {
   return (
     <>
       <div className="mb-10">
-          <h1 className=" font-semibold text-4xl border-b-2 p-8 text-center w-3/4 mx-auto border-purple-600 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] rounded-b-2xl">
+          <h1 className=" font-semibold text-4xl border-b-2 p-8 text-center w-3/4 mx-auto border-green-600 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] rounded-b-2xl">
          Officer At  LNCT
           </h1>
         </div>
-      <div className=" text-purple-600 relative  mb-10  w-full h-[400px]    mx-auto border-2">
+      <div className=" text-green-600 relative  mb-10  w-full h-[400px]    mx-auto border-2">
         <Image src="/clg.jpg" alt="" fill />
         
       </div>
       <div className=" p-10 ">
-        <h1 className="text-4xl text-center text-purple-700 border-b-2 border-purple-500 font-semibold ">
+        <h1 className="text-4xl text-center text-green-700 border-b-2 border-green-500 font-semibold ">
           About Officer
         </h1>
         <div className="w-full mx-auto pt-5 ml-15">

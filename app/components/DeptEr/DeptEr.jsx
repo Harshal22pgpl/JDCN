@@ -24,7 +24,7 @@ export default function DeptEr({ dept }) {
       title: "postgraduate students",
       value: "60",
       textColor: "text-red-600",
-      color: "bg-purple-500",
+      color: "bg-green-500",
       speed: "35",
     },
     {
@@ -233,7 +233,7 @@ export default function DeptEr({ dept }) {
         <div className="w-full flex px-20 py-10  gap-7">
           <div className="w-2/3 ">
             <div className="p-10">
-              <h2 className=" text-4xl text-purple-700 my-5">
+              <h2 className=" text-4xl text-green-700 my-5">
                 About the Department
               </h2>
               <div className="w-full   mt-5">
@@ -313,26 +313,26 @@ export default function DeptEr({ dept }) {
         </div>
 
         <div className="w-full flex flex-col px-20 gap-4 py-6">
-          <h1 className="text-4xl text-purple-500 font-bold p-2">
+          <h1 className="text-4xl text-green-500 font-bold p-2">
             Academic Programmes
           </h1>
           <div className="w-full flex justify-center gap-20 ">
             <ProgramCard
               course={"Undergraduate"}
-              bgcolor={"bg-purple-400"}
+              bgcolor={"bg-green-400"}
               admission={"JEE"}
               dept={"civil engineering"}
             />
             <ProgramCard
               course={"Post-Graduate"}
-              bgcolor={"bg-purple-600"}
+              bgcolor={"bg-green-600"}
               admission={"JEE"}
               dept={"civil engineering"}
             />
           </div>
         </div>
         <div className="w-full flex flex-col px-20 gap-4 py-6 ">
-          <h1 className="font-bold text-4xl text-purple-500">
+          <h1 className="font-bold text-4xl text-green-500">
             Head Of Department
           </h1>
           <div className="flex justify-between gap-10">
@@ -365,7 +365,7 @@ export default function DeptEr({ dept }) {
         <div className="w-full p-2"></div>
       </div>
       <div className=" w-10/12 mx-auto p-10">
-        <h1 className="py-3 text-center text-3xl text-purple-500 font-bold">
+        <h1 className="py-3 text-center text-3xl text-green-500 font-bold">
           List of Faculties
         </h1>
         <div className="overflow-x-auto">

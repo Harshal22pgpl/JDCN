@@ -12,7 +12,7 @@ export default function NoticeCard({ img, title, description, id }) {
 
   return (
     <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-full h-[500px]"> {/* Set a fixed height */}
-      <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-purple-gray-500 shadow-purple-gray-500/40">
+      <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-green-gray-500 shadow-green-gray-500/40">
         <img
           src={img}
           alt="card-image"
@@ -20,7 +20,7 @@ export default function NoticeCard({ img, title, description, id }) {
         />
       </div>
       <div className="p-6 flex-grow">
-        <h5 className="block mb-2 font-sans text-xl font-semibold leading-snug tracking-normal text-purple-gray-900">
+        <h5 className="block mb-2 font-sans text-xl font-semibold leading-snug tracking-normal text-green-gray-900">
           {title}
         </h5>
         <p className="block font-sans text-base font-light leading-relaxed text-inherit line-clamp-3">

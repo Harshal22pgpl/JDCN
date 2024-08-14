@@ -52,8 +52,8 @@ const Monument = () => {
               onClick={() => handleSectionClick(section.id)}
               className={`px-8 py-3  rounded-t-lg hover:scale-[.98] transition-all hover:transform duration-500 ${
                 activeSection === section.id
-                  ? "bg-purple-700 text-white"
-                  : "bg-purple-400"
+                  ? "bg-green-700 text-white"
+                  : "bg-green-400"
               }`}
             >
               {section.title}

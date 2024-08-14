@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     <div className=" text-white z-50">
-      <div className="flex items-center justify-between p-2 bg-purple-700">
+      <div className="flex items-center justify-between p-2 bg-green-700">
         <div className="items-center flex gap-4 ">
           <p className=" animate-pulse">Admissions</p>
           <p>Placement</p>
@@ -55,7 +55,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="flex items-center justify-between px-4 bg-purple-700">
+      <div className="flex items-center justify-between px-4 bg-green-700">
         {/* Logo and college name */}
         <div className="flex items-center gap-4">
           <div className="w-[100px] h-[100px] relative">
@@ -81,7 +81,7 @@ export default function Navbar() {
           />
         </div>
       </div>
-      <div className="flex justify-around bg-purple-700 p-4">
+      <div className="flex justify-around bg-green-700 p-4">
         <div id="tmenu-institute">
           <a
             href="#"
@@ -94,14 +94,14 @@ export default function Navbar() {
             </span>
           </a>
           <div
-            className={`megamenu-panel absolute top-30 left-0 w-screen bg-purple-700 nav-submenu  ${
+            className={`megamenu-panel absolute top-30 left-0 w-screen bg-green-700 nav-submenu  ${
               openSubMenuId === "institute" ? "" : "hidden"
             }`}
           >
             <ul class=" flex justify-around list-none">
               <li class="py-4 ">
                 <h5 class="text-lg font-semibold mb-2">
-                  <a href="#" class="text-purple-500 text-lg p-2">
+                  <a href="#" class="text-green-500 text-lg p-2">
                     Institute
                   </a>
                 </h5>
@@ -166,7 +166,7 @@ export default function Navbar() {
               </li>
               <li class="py-4">
                 <h5 class="text-lg font-semibold mb-2">
-                  <a href="#" class="text-purple-500 text-lg p-2">
+                  <a href="#" class="text-green-500 text-lg p-2">
                     Administration
                   </a>
                 </h5>
@@ -247,7 +247,7 @@ export default function Navbar() {
               </li>
               <li class="py-4">
                 <h5 class="text-lg font-semibold mb-2">
-                  <a href="#" class="text-purple-500 text-lg p-2">
+                  <a href="#" class="text-green-500 text-lg p-2">
                     Key Documents
                   </a>
                 </h5>
@@ -328,7 +328,7 @@ export default function Navbar() {
               </li>
                <li class="py-4 ">
                 <h5 class="text-lg font-semibold mb-2">
-                  <a href="#" class="text-purple-500 text-lg p-2">
+                  <a href="#" class="text-green-500 text-lg p-2">
                     Institute
                   </a>
                 </h5>
@@ -393,7 +393,7 @@ export default function Navbar() {
               </li>
               <li class="py-4">
                 <h5 class="text-lg font-semibold mb-2">
-                  <a href="#" class="text-purple-500 text-lg p-2">
+                  <a href="#" class="text-green-500 text-lg p-2">
                     Accreditation
                   </a>
                 </h5>
@@ -452,7 +452,7 @@ export default function Navbar() {
             </span>
           </a>
           <div
-            className={`megamenu-panel absolute top-30 left-0 w-screen bg-purple-400 nav-submenu  ${
+            className={`megamenu-panel absolute top-30 left-0 w-screen bg-green-400 nav-submenu  ${
               openSubMenuId === "academics" ? "" : "hidden"
             }`}
           >
@@ -460,7 +460,7 @@ export default function Navbar() {
               <li>
                 <ul>
                   <li>
-                    <a className="text-purple-500 text-lg p-2 " href="">
+                    <a className="text-green-500 text-lg p-2 " href="">
                       Admissions
                     </a>
                   </li>
@@ -495,7 +495,7 @@ export default function Navbar() {
                   </li>
                 </ul>
                 <h5>
-                  <a className="text-purple-500 text-lg p-2" href="">
+                  <a className="text-green-500 text-lg p-2" href="">
                     Technical Service Units
                   </a>
                 </h5>
@@ -519,7 +519,7 @@ export default function Navbar() {
               </li>
               <li>
                 <h5>
-                  <a className="text-purple-500 text-lg p-2" href="">
+                  <a className="text-green-500 text-lg p-2" href="">
                     Departments
                   </a>
                 </h5>
@@ -546,7 +546,7 @@ export default function Navbar() {
                   </li>
                 </ul>
                 <h5>
-                  <a className="text-purple-500 text-lg p-2" href="">
+                  <a className="text-green-500 text-lg p-2" href="">
                     Academic Support Centres
                   </a>
                 </h5>
@@ -580,7 +580,7 @@ export default function Navbar() {
               </li>
               <li>
                 <h5>
-                  <a className="text-purple-500 text-lg p-2" href="">
+                  <a className="text-green-500 text-lg p-2" href="">
                     Centres of Research
                   </a>
                 </h5>
@@ -630,7 +630,7 @@ export default function Navbar() {
                 </ul>
 
                 <h5>
-                  <a className="text-purple-500 text-lg p-2" href="">
+                  <a className="text-green-500 text-lg p-2" href="">
                     Facilities
                   </a>
                 </h5>
@@ -666,14 +666,14 @@ export default function Navbar() {
             </span>
           </a>
           <div
-            className={`megamenu-panel absolute top-30 left-0 w-screen bg-purple-400 nav-submenu ${
+            className={`megamenu-panel absolute top-30 left-0 w-screen bg-green-400 nav-submenu ${
               openSubMenuId === "students" ? "" : "hidden"
             }`}
           >
             <ul class="flex justify-around ">
               <li>
                 <h5>
-                  <a className="text-purple-500 text-lg p-2 " href="">
+                  <a className="text-green-500 text-lg p-2 " href="">
                     Prospective Students
                   </a>
                 </h5>
@@ -740,7 +740,7 @@ export default function Navbar() {
               </li>
               <li>
                 <h5>
-                  <a className="text-purple-500 text-lg p-2 " href="">
+                  <a className="text-green-500 text-lg p-2 " href="">
                     Existing Students
                   </a>
                 </h5>
@@ -790,7 +790,7 @@ export default function Navbar() {
               </li>
               <li>
                 <h5>
-                  <a className="text-purple-500 text-lg p-2 " href="">
+                  <a className="text-green-500 text-lg p-2 " href="">
                     Other Related Links
                   </a>
                 </h5>
@@ -846,14 +846,14 @@ export default function Navbar() {
             </span>
           </a>
           <div
-            className={`megamenu-panel absolute top-30 left-0 w-screen bg-purple-400 nav-submenu ${
+            className={`megamenu-panel absolute top-30 left-0 w-screen bg-green-400 nav-submenu ${
               openSubMenuId === "faculty & staff" ? "" : "hidden"
             }`}
           >
             <ul class="flex justify-around">
               <li>
                 <h5>
-                  <a className="text-purple-500 text-lg p-2" href="">
+                  <a className="text-green-500 text-lg p-2" href="">
                     Prospective Employee
                   </a>
                 </h5>
@@ -875,7 +875,7 @@ export default function Navbar() {
               </li>
               <li>
                 <h5>
-                  <a className="text-purple-500 text-lg p-2" href="">
+                  <a className="text-green-500 text-lg p-2" href="">
                     Existing Employee
                   </a>
                 </h5>
@@ -926,7 +926,7 @@ export default function Navbar() {
               </li>
               <li>
                 <h5>
-                  <a className="text-purple-500 text-lg p-2" href="">
+                  <a className="text-green-500 text-lg p-2" href="">
                     Useful Links
                   </a>
                 </h5>
@@ -965,7 +965,7 @@ export default function Navbar() {
               </li>
               <li>
                 <h5>
-                  <a className="text-purple-500 text-lg p-2" href="">
+                  <a className="text-green-500 text-lg p-2" href="">
                     Retired Employee
                   </a>
                 </h5>
@@ -997,7 +997,7 @@ export default function Navbar() {
             </span>
           </a>
           <div
-            className={`megamenu-panel absolute top-30 left-0 w-screen bg-purple-400 nav-submenu ${
+            className={`megamenu-panel absolute top-30 left-0 w-screen bg-green-400 nav-submenu ${
               openSubMenuId === "research" ? "" : "hidden"
             }`}
           >
@@ -1069,7 +1069,7 @@ export default function Navbar() {
             </span>
           </a>
           <div
-            className={`megamenu-panel absolute top-30 left-0 w-screen bg-purple-400 nav-submenu ${
+            className={`megamenu-panel absolute top-30 left-0 w-screen bg-green-400 nav-submenu ${
               openSubMenuId === "alumni" ? "" : "hidden"
             }`}
           >
@@ -1109,7 +1109,7 @@ export default function Navbar() {
             </span>
           </a>
           <div
-            className={`megamenu-panel absolute top-30 left-0 w-screen bg-purple-400 nav-submenu ${
+            className={`megamenu-panel absolute top-30 left-0 w-screen bg-green-400 nav-submenu ${
               openSubMenuId === "resources" ? "" : "hidden"
             }`}
           >
